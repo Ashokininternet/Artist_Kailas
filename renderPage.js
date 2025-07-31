@@ -1,4 +1,4 @@
-import { gridData } from "/script/data.js";
+import { gridData } from "./data.js";
 
 renderPage()
 
