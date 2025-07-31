@@ -107,4 +107,12 @@ export const gridData = [
         img: "Images/Muichiro Tokito.jpg",
         name:"Muichiro Tokito"
     },
+    {
+        img: "Images/20250731_163952.jpg",
+        name: "Isagi"
+    },
+    {
+        img: "Images/20250731_164147.jpg",
+        name: "Tanjiro"
+    },
 ];
