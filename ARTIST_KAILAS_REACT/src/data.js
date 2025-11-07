@@ -144,4 +144,19 @@ export const gridData = [
         img: "Images/20250731_164147.jpg",
         name: "Tanjiro"
     },
+    {
+        id: crypto.randomUUID(),  
+        img: "Images/20251107_202018.jpg",
+        name: "Boruto"
+    },
+    {
+        id: crypto.randomUUID(),  
+        img: "Images/20251107_202041.jpg",
+        name: "Luffy"
+    },
+    {
+        id: crypto.randomUUID(),  
+        img: "Images/20251107_202059.jpg",
+        name: "Naruto"
+    },
 ];
