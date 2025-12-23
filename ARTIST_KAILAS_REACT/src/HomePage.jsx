@@ -17,7 +17,7 @@ function HomePage() {
                     <article key={data.id} className="art-piece">
                         <img className="art-img" src={data.img} alt={data.name} />
                         <div className="art-details">
-                            <p className="art-name">Name: {data.name}</p>
+                            <p className="art-name">{data.name}</p>
                         </div>
                     </article>
                 ))}
