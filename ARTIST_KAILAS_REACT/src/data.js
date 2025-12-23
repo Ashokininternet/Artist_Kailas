@@ -159,4 +159,30 @@ export const gridData = [
         img: "Images/20251107_202059.jpg",
         name: "Naruto"
     },
+        {
+        id: crypto.randomUUID(),  
+        img: "Images/minato-image-kill.jpg",
+        name: "Minato"
+    },
+        {
+        id: crypto.randomUUID(),  
+        img: "Images/naruto-and-minato.jpg",
+        name: "Naruto and Minato"
+    },
+            {
+        id: crypto.randomUUID(),  
+        img: "Images/naruto-and-sasuke.jpg",
+        name: "Naruto and Sasuke"
+    },
+           {
+        id: crypto.randomUUID(),  
+        img: "Images/grey-ninja pokemon.jpg",
+        name: "Greninja"
+    },
+               {
+        id: crypto.randomUUID(),  
+        img: "Images/gojo.jpg",
+        name: "Gojo"
+    },
+    
 ];
