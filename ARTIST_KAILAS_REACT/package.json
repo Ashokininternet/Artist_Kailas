@@ -6,11 +6,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "npm run deploy"
+    "build": "npx vite build",
+    "predeploy": "npx vite build",
+    "deploy": "npx gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.1",
