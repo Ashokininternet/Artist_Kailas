@@ -147,3 +147,56 @@ h5 {
             0 0 0 1px #000 inset;
     }
 }
+.bottom-nav {
+position: sticky;
+bottom: 0;
+width: 100%;
+background: #0a0a0f;
+border-top: 2px solid #1a1a1a;
+box-shadow: 0 -4px 8px rgba(0,0,0,0.25);
+z-index: 20;
+}
+
+.bottom-nav__inner {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 28px;
+padding: 12px 16px;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.bottom-nav__link {
+color: #f3f3f3;
+text-decoration: none;
+font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+font-weight: 700;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+padding: 6px 12px;
+border-radius: 8px;
+transition: transform 0.2s ease, background-color 0.2s ease;
+background: rgba(255,255,255,0.04);
+border: 1px solid rgba(255,255,255,0.12);
+}
+.bottom-nav__link:hover,
+.bottom-nav__link:focus {
+transform: translateY(-1px);
+background: rgba(255,255,255,0.12);
+outline: none;
+}
+.bottom-nav__link:active {
+transform: translateY(0);
+background: rgba(255,255,255,0.18);
+}
+
+/* Optional: tweak for very small screens */
+@media (max-width: 600px) {
+.bottom-nav__inner {
+gap: 12px;
+}
+.bottom-nav__link {
+padding: 6px 10px;
+}
+}
