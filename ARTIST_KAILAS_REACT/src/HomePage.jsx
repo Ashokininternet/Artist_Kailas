@@ -1,12 +1,12 @@
 import React from "react"
-import { gridData } from "./data"
+import { gridData } from "./Data/data"
 import './HomePage.css'
 function HomePage() {
     return (
         <>
             <header>
-                <div class="page-header">
-                    <h1 class="h1_1">Kailas S.R Art Corner</h1>
+                <div className="page-header">
+                    <h1 className="h1_1">Kailas S.R Art Corner</h1>
                     <h5>ART GALLERY</h5>
                 </div>
 
@@ -22,7 +22,13 @@ function HomePage() {
                     </article>
                 ))}
             </main>
-
+            <div className="bottom-nav" aria-label="Bottom navigation"> 
+                <nav className="bottom-nav__inner" role="navigation"> 
+                    <a href="/Kailas/#/animation" className="bottom-nav__link" title="Animation">Animation</a> 
+                    
+                    <a href="/Kailas/#/crafts" className="bottom-nav__link" title="Crafts">Crafts</a> 
+                </nav> 
+            </div>
             <footer>
                 <hr />
             </footer>

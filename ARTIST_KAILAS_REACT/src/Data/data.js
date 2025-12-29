@@ -1,187 +1,187 @@
 export const gridData = [
     {
         id: crypto.randomUUID(),  
-        img: "Images/93f1b627-4719-4857-af8d-1739b2dfccda.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/93f1b627-4719-4857-af8d-1739b2dfccda.jpg`,
         name:"Gogeto ssj blue"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/c7fbc913-4998-49cc-850f-700ea4fc1834.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/c7fbc913-4998-49cc-850f-700ea4fc1834.jpg`,
         name:"Gojo Satoru"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/20240824_114559.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/20240824_114559.jpg`,
         name:"Tanjiro"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/20240824_114508.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/20240824_114508.jpg`,
         name:"Zoro"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/20240824_114604.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/20240824_114604.jpg`,
         name:"Naruto"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/20240824_114515.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/20240824_114515.jpg`,
         name:"Goku ssj4"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/metalbat.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/metalbat.jpg`,
         name:"Metal bat"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/20241114_203455 (1).jpg",
+        img: `${import.meta.env.BASE_URL}/Images/20241114_203455 (1).jpg`,
         name:"Luffy"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/20241114_203416.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/20241114_203416.jpg`,
         name:"Sanji"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/20241114_203537.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/20241114_203537.jpg`,
         name:"Kaido vs Luffy"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/20241114_203345.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/20241114_203345.jpg`,
         name:"White beard"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/Zoro nothing happned.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/Zoro nothing happned.jpg`,
         name:"Zoro nothing happened"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/sitama vs garo.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/sitama vs garo.jpg`,
         name:"Sitama vs Garo"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/Rengoku.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/Rengoku.jpg`,
         name:"Rengoku"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/Merry Christmas deadpool.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/Merry Christmas deadpool.jpg`,
         name:"Merry Christmas deadpool"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/Sukuna.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/Sukuna.jpg`,
         name:"Sukuna"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/Rengoku 1.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/Rengoku 1.jpg`,
         name:"Rengoku"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/Shiodu 1.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/Shiodu 1.jpg`,
         name:"Shiodu"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/Gojo sketch 1.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/Gojo sketch 1.jpg`,
         name:"Gojo"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/Isagi vs Kaiser.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/Isagi vs Kaiser.jpg`,
         name:"Isagi vs Kaiser"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/Sukuna 2.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/Sukuna 2.jpg`,
         name:"Sukuna 2"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/Goku super sayan at namek.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/Goku super sayan at namek.jpg`,
         name:"Goku super sayan at namek"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/Luffy wano.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/Luffy wano.jpg`,
         name:"Luffy wano"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/Okarun Full Throttle.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/Okarun Full Throttle.jpg`,
         name:"Okarun Full Throttle"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/Gojo blind.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/Gojo blind.jpg`,
         name:"Gojo"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/Obanai Iguro  Serpent Pillar.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/Obanai Iguro  Serpent Pillar.jpg`,
         name:"Obanai Iguro / Serpent Pillar"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/Muichiro Tokito.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/Muichiro Tokito.jpg`,
         name:"Muichiro Tokito"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/20250731_163952.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/20250731_163952.jpg`,
         name: "Isagi"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/20250731_164147.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/20250731_164147.jpg`,
         name: "Tanjiro"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/20251107_202018.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/20251107_202018.jpg`,
         name: "Boruto"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/20251107_202041.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/20251107_202041.jpg`,
         name: "Luffy"
     },
     {
         id: crypto.randomUUID(),  
-        img: "Images/20251107_202059.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/20251107_202059.jpg`,
         name: "Naruto"
     },
         {
         id: crypto.randomUUID(),  
-        img: "Images/minato-image-kill.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/minato-image-kill.jpg`,
         name: "Minato"
     },
         {
         id: crypto.randomUUID(),  
-        img: "Images/naruto-and-minato.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/naruto-and-minato.jpg`,
         name: "Naruto and Minato"
     },
             {
         id: crypto.randomUUID(),  
-        img: "Images/naruto-and-sasuke.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/naruto-and-sasuke.jpg`,
         name: "Naruto and Sasuke"
     },
            {
         id: crypto.randomUUID(),  
-        img: "Images/grey-ninja pokemon.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/grey-ninja pokemon.jpg`,
         name: "Greninja"
     },
                {
         id: crypto.randomUUID(),  
-        img: "Images/gojo.jpg",
+        img: `${import.meta.env.BASE_URL}/Images/gojo.jpg`,
         name: "Gojo"
     },
     
